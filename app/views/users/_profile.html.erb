@@ -1,6 +1,6 @@
 
 
-		<%= attachment_image_tag user, :profile_image, :fill, 100, 100, fallback: "no_image.jpg" %>
+<%= attachment_image_tag user, :profile_image, :fill, 100, 100, fallback: "no_image.jpg" %>
 <table class="table">
 		<tr>
 			<th>name</th>
@@ -11,6 +11,7 @@
 			<th>introduction</th>
 			<th><%= user.introduction %></th>
 		</tr>
+
 </table>
 
 <div class="row">
